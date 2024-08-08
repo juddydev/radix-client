@@ -1,0 +1,53 @@
+{
+  "eslint.enable": false,
+  "prettier.enable": false,
+  "cSpell.words": ["shadcn", "uninoverse"],
+  "files.associations": { "*.css": "tailwindcss" },
+  "files.exclude": {
+    "**/node_modules": true,
+    "*.lock": true,
+    "*.log": true,
+    "*.tsbuildinfo": true,
+    ".cache": true,
+    ".idea": true,
+    ".sentryclirc": true,
+    ".yarn": true,
+    "build-storybook.log": true,
+    "bun.lockb": true,
+    "dist": true,
+    "customer-accountapi.generated.d.ts": true,
+    "storefrontapi.generated.d.ts": true
+  },
+  "search.exclude": {
+    "*.lock": true,
+    "package-lock.json": true,
+    "public": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescript][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports.biome": "always",
+      "quickfix.biome": "explicit"
+    }
+  },
+  "[css][json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "quickfix.biome": "explicit"
+    }
+  },
+  "todo-tree.regex.regex": "(?:(?://|#|<!--|;|/\\*\\*?|\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.general.tags": ["TODO", "IMPORTANT"],
+  "todo-tree.highlights.customHighlight": {
+    "IMPORTANT": {
+      "foreground": "red",
+      "iconColour": "red"
+    }
+  }
+}

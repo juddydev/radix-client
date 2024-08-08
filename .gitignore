@@ -1,0 +1,19 @@
+# Storybook
+*storybook.log
+
+# Bun
+/bun.lockb
+/package-lock.json
+
+# macOS
+.DS_Store
+
+# Hydrogen
+node_modules
+/.cache
+/build
+/dist
+/public/build
+/.mf
+.env
+.shopify

@@ -1,0 +1,10 @@
+projects:
+  default:
+    schema: "node_modules/@shopify/hydrogen/dist/storefront.schema.json"
+    documents:
+      - "app/routes/**/*.{ts,tsx}"
+      - "app/graphql/fragments.ts"
+  customer-account:
+    schema: "node_modules/@shopify/hydrogen/dist/customer-account.schema.json"
+    documents:
+      - "app/graphql/customer-account/**/*.ts"
